@@ -1,0 +1,27 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output directories
+_output
+
+# Test binary, built with `go test -c`
+*.test
+
+# Auto-build files
+cmd/**/version.go
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# VSCode configuration files
+.vscode
+
+# Hidden files
+.*
+!.gitkeep
+!.gitignore
+!.gitmodules
